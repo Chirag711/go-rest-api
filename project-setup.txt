@@ -1,0 +1,33 @@
+go-rest-api/
+│
+├── cmd/
+│   └── main.go
+│
+├── config/
+│   └── db.go
+│
+├── models/
+│   └── user.go
+│
+├── controllers/
+│   └── user_controller.go
+│
+├── routes/
+│   └── routes.go
+│
+├── services/
+│   ├── email_service.go
+│   ├── excel_service.go
+│   └── file_service.go
+│
+├── uploads/
+│
+├── .env
+└── go.mod
+
+# install dependancies
+go get go.mongodb.org/mongo-driver/mongo
+go get github.com/gorilla/mux
+go get github.com/joho/godotenv
+go get github.com/xuri/excelize/v2
+go get gopkg.in/gomail.v2
